@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/Capture"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:layout_marginTop="53dp"
+        android:hint="SIGN UP"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:hint="TO CONTACT US"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" Username"
+        android:drawableLeft="@drawable/ic_action_personname"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:textColorHint="#888888"/>
+
+    <EditText
+        android:id="@+id/editTex6"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        android:hint=" Email"
+        android:drawableLeft="@drawable/ic_action_username"
+        android:textColorHint="#888888" />
+
+    <EditText
+        android:id="@+id/editTex4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        android:hint=" Password"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:textColorHint="#888888" />
+
+    <EditText
+        android:id="@+id/editTex5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        android:hint=" Confirm Password"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:textColorHint="#888888" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="SIGN UP"
+        android:textColorHint="#888888"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/ic_action_fitness"
+        android:layout_marginTop="15dp"/>
+
+
+
+</LinearLayout>

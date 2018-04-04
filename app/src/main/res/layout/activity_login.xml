@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=""
+    tools:context="com.example.el_alamaya.gymathome.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffff">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/Capture32" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint=" Email"
+            android:drawableLeft="@drawable/ic_action_username"
+            android:layout_gravity="center"
+            android:textColorHint="#888888"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_gravity="center"
+            android:hint=" Password"
+            android:drawableLeft="@drawable/ic_action_password"
+            android:textColorHint="#888888" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:hint="Cannot access your account?"
+            android:textColorHint="#888888"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="180dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#ffff"
+            android:hint="SIGN IN"
+            android:onClick="signIn"
+            android:textColorHint="#888888" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="DONNOT HAVE ACCOUNT YET?>" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:hint="SIGN UP"
+            android:onClick="signup"
+            android:textColorHint="#888888"
+            android:textStyle="bold" />
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="New here? Create an account >"-->
+            <!--android:textColorHint="#888888"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="50dp"/>-->
+
+    </LinearLayout>
+</RelativeLayout>
